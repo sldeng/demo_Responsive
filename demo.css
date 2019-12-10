@@ -1,0 +1,121 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background: #eeeeee;
+}
+.container-unique{
+    background: url('./bg.jpg') no-repeat 100% 100%;
+    height: 422px;
+    position: relative;
+    background-size: 100% 100%;
+}
+.navbar {
+    background-color:rgba(255,255,255,0.2);
+    color: #ffffff;
+}
+.container-unique .navbar a{
+    color: #ffffff !important;
+}
+.search-content{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 80px;
+    width: 45%;
+    background:rgba(14, 12, 12, 0.68);
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+}
+.search-content input{
+    border: none;
+    height: 60px;
+    border-radius: 8px;
+    width: 60%;
+}
+.search-content input {
+    outline:none;
+    border: 1px solid #CCCCCC;
+    background:#f0ecec;
+    }
+    .search-content span{
+        width: 20%;
+        display: inline-block;
+        height: 60px;
+        background: #0e7bf9;
+        line-height: 60px;
+        text-align: center;
+        font-size: 1.2em;
+        border-radius: 8px;
+        
+    }
+.unique-content{
+   
+}
+.unique-li{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.unique-l{
+    width:55%;
+    height: 300px;
+}
+.unique-l img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.big-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.unique-r{
+    width: 45%;
+    background: #dddddd;
+}
+.unique-r{
+    padding: 19px 33px 10px 49px;
+    box-sizing: border-box;
+}
+.unique-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.list-li{
+    width: 25%;
+    background: #ffffff;
+    height: 315px;
+}
+@media (min-width: 768px ) and (max-width: 990px) { 
+    .list-li{
+        width: 50%;
+       
+    }
+    .unique-l{
+        width:100%;
+    }
+    .unique-r{
+        width: 100%;
+    }
+
+}
+@media (min-width: 20px ) and (max-width:  768px) { 
+    .list-li{
+        width: 100%;
+       
+    }
+    .unique-l{
+        width:100%;
+    }
+    .unique-r{
+        width: 100%;
+    }
+
+}
